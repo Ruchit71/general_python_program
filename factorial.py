@@ -1,10 +1,10 @@
 def factorial_without_recursion(number):
-    fact = 1
+    temp = 1
     while(number > 0):
-        fact = fact * number
+        temp = temp * number
         number = number - 1
     print('Factorial of', number,'is: ')
-    print(fact)
+    print(temp)
 
 if __name__ == '__main__':
     userInput = int(input('Enter the number to find its factorial: '))
